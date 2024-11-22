@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aiky Company</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+
+</head>
+
+<body>
+    <div class="layer-body">
+        <div class="body-container">
+            <!---==== Nav ====-->
+            <nav>
+                <div class="">
+                    <a href="#"> <img src="img/logo.png" alt="my-avatar" /></a>
+                </div>
+                <div id="menu-icon" class="menu-icon">
+                    <i class="ph-fill ph-list"></i>
+                </div>
+                <ul id="menu-list" class="hidden">
+                    <li>
+                        <a href="#" onclick="loadContent('home')">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="loadContent('about.html')">Profil</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="loadContent('material.html')">Material</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="loadContent('product.html')">Product</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="loadContent('contact.html')">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!---==== End Banner ====--->
+
+
+            <main class="cover-container" id="content">
+                <div class="cover-home">
+                    <div class="cover">
+                        <div class="text-cover">
+                            <h1>The Most Accurate And<br />Timely Local Diagdostic<br /> Imaging Specialists</h1>
+                        </div>
+                        <div class="cover-spesial">
+                            <div class="img-fast">
+                                <img src="img/stopwatch.png" alt="">
+                                <div class="text-fast">
+                                    <h3>Fast</h3>
+                                    <p>Urgent reports available within a few haours</p>
+                                </div>
+                            </div>
+                            <div class="img-accurate">
+                                <img src="img/target.png" alt="">
+                                <div class="text-accurate">
+                                    <h3>Accurate</h3>
+                                    <p>Latest techniques and guidelines customised to you</p>
+                                </div>
+                            </div>
+                            <div class="img-parking">
+                                <img src="img/parking-area.png" alt="">
+                                <div class="text-parking">
+                                    <h3>Easy Parking</h3>
+                                    <p>Rigth oustside our front door</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-cover">
+                            <div class="btn-book">
+                                <a href="#">Book an Appointment</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cover-img">
+                        <div class="gambar">
+                            <img src="img/6572.png_860-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!--  <small>Copyright &copy; 2022 | Aiky Company | All Right Reserved.</small> -->
+
+
+
+
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(".bg-loader").hide();
+            })
+        </script>
+    </div>
+    </div>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</body>
+
+</html>
